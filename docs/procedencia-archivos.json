@@ -1,0 +1,134 @@
+[
+  {
+    "source": "03_Clasificacion_Multiclase_y_Regresion_ENTREGA.ipynb",
+    "destination": "especializacion/01-clasificacion-y-regresion/notebook.ipynb",
+    "source_sha256": "260cd3c74d29ced2a11e931687971ecdc3dee5b9002ee01032bed57f3f145f0d",
+    "changes": "Salidas y metadatos de ejecución eliminados; aviso de procedencia añadido. Código original conservado."
+  },
+  {
+    "source": "Reto_final_desbalance_y_regularizacion_ENTREGA.ipynb",
+    "destination": "especializacion/02-desbalance-y-regularizacion/notebook.ipynb",
+    "source_sha256": "6c8a35ffa30d7536997aca3d065c43dcbf947737f926e937bd6ba8b6703e1379",
+    "changes": "Salidas y metadatos de ejecución eliminados; aviso de procedencia añadido. Código original conservado."
+  },
+  {
+    "source": "05_RNN_Meteorologia_PARTE_XIV_ENTREGA.ipynb",
+    "destination": "especializacion/03-rnn-meteorologia/notebook.ipynb",
+    "source_sha256": "d8a876312c5115c5d2b17104fd6740bac8cff628f1b6631a44b08c169f9371bb",
+    "changes": "Salidas y metadatos de ejecución eliminados; aviso de procedencia añadido. Código original conservado."
+  },
+  {
+    "source": "06_Encoder_Decoder_LSTM_ACTIVIDAD_21_ENTREGA.ipynb",
+    "destination": "especializacion/04-encoder-decoder/notebook.ipynb",
+    "source_sha256": "a9594020999e84ebf9aa0050fdaab0fc94f7967bd8c9b2209266028edf2a937e",
+    "changes": "Salidas y metadatos de ejecución eliminados; aviso de procedencia añadido. Código original conservado."
+  },
+  {
+    "source": "Taller_Seq2Seq_Grupo3_FINAL (1).ipynb",
+    "destination": "especializacion/05-seq2seq-atencion/notebook.ipynb",
+    "source_sha256": "95afbdd347133a73287128b7f8df717c1b3e934d29059232ccc91f12fbbbd386",
+    "changes": "Salidas y metadatos de ejecución eliminados; aviso de procedencia añadido. Código original conservado."
+  },
+  {
+    "source": "Taller4_CGAN_VAE_CIFAR10_JuanTejedor_MiguelMoreno_FINAL (1).ipynb",
+    "destination": "especializacion/06-modelos-generativos/notebook.ipynb",
+    "source_sha256": "bb6b480d3444183a075714266436db2194935cfb56c30c420a3b12e0b20d32f8",
+    "changes": "Salidas y metadatos de ejecución eliminados; aviso de procedencia añadido. Código original conservado."
+  },
+  {
+    "source": "Informe_Final_DataVenture_BankMarketing-1(3).pdf",
+    "destination": "especializacion/07-estadistica-bank-marketing/informe-bank-marketing.pdf",
+    "source_sha256": "6d1615d4f09378d1334ab2a00f79f8c42c861283b9838aa61f3b3eb9d4eb92ba",
+    "changes": "Informe académico original, sin cambios."
+  },
+  {
+    "source": "Prediccion_Temperatura_B34_Operativo.ipynb",
+    "destination": "machine-learning/prediccion-temperatura/notebook.ipynb",
+    "source_sha256": "d3d4144069cf061bacd8606a6e452a015ef4c023f6685e7c499d976f721c9281",
+    "changes": "Entrada local/Colab; demo sintética; métricas históricas sin reproducir retiradas; validación de archivo vacío añadida. Algoritmo preservado."
+  },
+  {
+    "source": "LHT65N_E31F_codec_compatible.js",
+    "destination": "sensores-iot/dragino-lht65n/codec.js",
+    "source_sha256": "915602811d12642bb5288df94dcfe4b4d76547874a61b2ba69e857f4e26fa6db",
+    "changes": "Código conservado; saltos de línea normalizados; extensión .js para SenseCAP."
+  },
+  {
+    "source": "WSC2-L_ChirpStackV4_decoder_corregido.js",
+    "destination": "sensores-iot/dragino-wsc2-l/codec.js",
+    "source_sha256": "cfb5d9362bd924ff86230d3fc6f3ce9674256fb5666bb31564d66ea0fb4edf7c",
+    "changes": "Código conservado; saltos de línea normalizados; extensión .js para SenseCAP."
+  },
+  {
+    "source": "Codec_ChirpStack_S2100_Reservorios_Organizado.txt",
+    "destination": "sensores-iot/sensecap-s2100/codec.js",
+    "source_sha256": "61dd4a3d4c64d29cce0e425fc3c4c2da2a3e825e6e2e5f04013e887f0b032241",
+    "changes": "Código conservado; saltos de línea normalizados; extensión .js para SenseCAP."
+  },
+  {
+    "source": "dashboard (7).py",
+    "destination": "analisis-de-datos/dashboard-invernaderos/dashboard.py",
+    "source_sha256": "0e46586bc740ffb369508fc58339e83d2c47b8825d35a64a7be47f5ef814e2bd",
+    "changes": "Fuentes de datos locales; enlaces, logos, videos y ubicaciones corporativas retirados; nombres genéricos; datos sintéticos de demostración."
+  },
+  {
+    "source": "dashboard_cortinas_por_dia.py",
+    "destination": "analisis-de-datos/dashboard-invernaderos/dashboard_cortinas.py",
+    "source_sha256": "2921b0a7ce7e66db4060a00d913bddddafd23ff9388aa436a85c1dbe2b8fe36b",
+    "changes": "Carga local con datos sintéticos y marca genérica; enlaces corporativos retirados."
+  },
+  {
+    "source": "requirements.txt",
+    "destination": "analisis-de-datos/pipeline-invernaderos/requirements.txt",
+    "source_sha256": "fe9242c854ef5dafbc9a824aec247fc964794cfec5371872dd3c203e4c3b2d52",
+    "changes": "Copia del repositorio Pagina-Web; contenido conservado."
+  },
+  {
+    "source": "limpiar_datos.py",
+    "destination": "analisis-de-datos/pipeline-invernaderos/procesamiento/limpiar_datos.py",
+    "source_sha256": "928e579518524422755e1e60c735f5532bb1d2adbd098157458080f6e79715e9",
+    "changes": "Copia del repositorio Pagina-Web; contenido conservado."
+  },
+  {
+    "source": "preparar_analisis_estadistico.py",
+    "destination": "analisis-de-datos/pipeline-invernaderos/procesamiento/preparar_analisis_estadistico.py",
+    "source_sha256": "d045bfd41178d042eb5fc1085d0140e18eba73a41574fa945277b71c6a86bd4d",
+    "changes": "Copia del repositorio Pagina-Web; contenido conservado."
+  },
+  {
+    "source": "generar_variables.py",
+    "destination": "analisis-de-datos/pipeline-invernaderos/procesamiento/generar_variables.py",
+    "source_sha256": "35b360cf56cbd57789bb7cae8e234873aceb6578de8dd03000fb3cb421198a28",
+    "changes": "Copia del repositorio Pagina-Web; contenido conservado."
+  },
+  {
+    "source": "variables_derivadas.md",
+    "destination": "analisis-de-datos/pipeline-invernaderos/docs/variables_derivadas.md",
+    "source_sha256": "fb595d3f3902de7da3d598ac8d6b63694768802dbfd6e7e708d6dbb8aaad3d1d",
+    "changes": "Copia del repositorio Pagina-Web; contenido conservado."
+  },
+  {
+    "source": "diccionario_datos.md",
+    "destination": "analisis-de-datos/pipeline-invernaderos/docs/diccionario_datos.md",
+    "source_sha256": "a7bd4e6d1391882f3b48184a032cbfb76f449504944f1b4ecb17bc8d8313c14f",
+    "changes": "Copia del repositorio Pagina-Web; contenido conservado."
+  },
+  {
+    "source": "modelo.py",
+    "destination": "desarrollo-web/flask-kmeans/modelo.py",
+    "source_sha256": "c221930131aa881346acd80ca66d7f6c27d07e0ee70f402344c01daf44c2fabc",
+    "changes": "Copia del repositorio appweb-Flaskrender; ruta de modelo portable y validación de entradas no finitas/negativas."
+  },
+  {
+    "source": "app.py",
+    "destination": "desarrollo-web/flask-kmeans/app.py",
+    "source_sha256": "ab492b7ea49f23373d5dd1ff4029adcaafe26217ae3b908e241a0a83a41e050a",
+    "changes": "Copia del repositorio appweb-Flaskrender; ruta de modelo portable y validación de entradas no finitas/negativas."
+  },
+  {
+    "source": "index.html",
+    "destination": "desarrollo-web/flask-kmeans/templates/index.html",
+    "source_sha256": "086b6adf4c72d951768b60c50da98ea05932c3fdfca2bda0ecbde51fb8c109c5",
+    "changes": "Copia del repositorio appweb-Flaskrender; ruta de modelo portable y validación de entradas no finitas/negativas."
+  }
+]
