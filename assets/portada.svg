@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Portafolio de Juan David Tejedor Medina: datos, código e investigación aplicada">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c34"/><stop offset="1" stop-color="#233951"/></linearGradient></defs>
+  <rect width="1280" height="300" rx="18" fill="url(#bg)"/>
+  <path d="M905 226L950 172L992 191L1035 119L1077 149L1126 78L1183 100" fill="none" stroke="#61d2c5" stroke-width="3" opacity=".85"/>
+  <path d="M905 77V227H1210" fill="none" stroke="#71859c" opacity=".35"/>
+  <g fill="#61d2c5"><circle cx="950" cy="172" r="5"/><circle cx="1035" cy="119" r="5"/><circle cx="1126" cy="78" r="5"/></g>
+  <text x="56" y="67" fill="#82d7ce" font-size="17" font-family="Arial, sans-serif" letter-spacing="3">PORTAFOLIO PROFESIONAL</text>
+  <text x="52" y="132" fill="#ffffff" font-size="43" font-weight="700" font-family="Arial, sans-serif">Juan David Tejedor Medina</text>
+  <text x="56" y="179" fill="#d7e1ed" font-size="23" font-family="Arial, sans-serif">Datos, código e investigación aplicada</text>
+  <rect x="56" y="212" width="5" height="34" rx="2" fill="#e0b873"/>
+  <text x="77" y="237" fill="#aebfd2" font-size="18" font-family="Arial, sans-serif">Ingeniería electrónica · Ciencia de datos · Machine Learning</text>
+</svg>

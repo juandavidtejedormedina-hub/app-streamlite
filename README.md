@@ -1,3 +1,5 @@
+![Portafolio de Juan David Tejedor Medina](assets/portada.svg)
+
 # Juan David Tejedor Medina
 
 ### Análisis de datos · Ciencia de datos · Machine Learning
