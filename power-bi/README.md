@@ -1,9 +1,11 @@
 # Power BI
 
-Esta carpeta registra el estado del material de Power BI dentro del portafolio. En los archivos recuperados no se encontró un proyecto nativo `.pbix` o `.pbit` para publicar.
+Actualmente no tengo un archivo `.pbix` o `.pbit` publicado en este repositorio.
 
-El documento titulado “Dashboard Ponderosa — Power BI” describe una aplicación realizada en **Python y Streamlit**. Su código y demostración están en [Análisis de datos / Dashboard de invernaderos](../analisis-de-datos/dashboard-invernaderos/README.md).
+El dashboard de invernaderos que aparece en el portafolio fue desarrollado con **Python y Streamlit**, no con Power BI. Puede revisarse aquí:
 
-Por ahora, esta carpeta no se presenta como evidencia de un dashboard desarrollado en Power BI. Cuando se incorpore un proyecto nativo, deberá acompañarse del archivo, una fuente pública o sintética, capturas, el modelo de datos y la explicación de sus medidas DAX.
+[Dashboard de invernaderos](../analisis-de-datos/dashboard-invernaderos/README.md)
+
+Cuando publique un proyecto de Power BI, esta carpeta incluirá el archivo correspondiente, capturas, modelo de datos y principales medidas DAX.
 
 [Volver al portafolio](../README.md)
