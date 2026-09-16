@@ -1,24 +1,23 @@
 # Evaluación de drones para aplicaciones agrícolas
 
-## Alcance público
+## Objetivo
 
-El trabajo original reunió información técnica y comercial para comparar soluciones de drones. Como los archivos fuente y las condiciones operativas no forman parte de esta publicación, este caso conserva el marco de evaluación y no presenta una compra o modelo específico como recomendación vigente.
+Comparar soluciones de drones según el tipo de trabajo esperado: inspección, fotografía, fotogrametría, análisis multiespectral o aplicación de insumos.
 
-## Dimensiones de comparación
+## Aspectos revisados
 
-- Objetivo: inspección, fotografía, fotogrametría, análisis multiespectral o aplicación de insumos.
-- Plataforma: carga útil, autonomía, cobertura, resistencia ambiental y precisión de navegación.
-- Sensor: resolución, bandas espectrales, calibración y compatibilidad con el producto esperado.
-- Datos: formatos, georreferenciación, software, exportación e integración con SIG o analítica.
-- Operación: capacitación, mantenimiento, repuestos, seguridad y regulación aplicable.
-- Economía: costo total, baterías, licencias, consumibles y tiempo de procesamiento.
+- Carga útil y autonomía.
+- Cobertura y resistencia ambiental.
+- Precisión de navegación.
+- Tipo de sensor y resolución.
+- Bandas espectrales y calibración.
+- Formatos de datos y georreferenciación.
+- Software y exportación de resultados.
+- Mantenimiento, repuestos y capacitación.
+- Costos de baterías, licencias y operación.
 
-## Método de decisión
+La comparación parte del resultado que se necesita obtener. Después se descartan los equipos que no cumplen requisitos básicos y se comparan las alternativas restantes.
 
-Primero se define el producto de datos necesario; luego se filtran equipos por requisitos obligatorios y finalmente se ponderan criterios deseables. Este orden evita elegir una plataforma atractiva que no produzca la resolución, precisión o cobertura requerida.
-
-## Evidencia y límite
-
-La publicación demuestra el proceso de investigación y estructuración de requisitos. Las cotizaciones, contactos, predios y documentos internos no se distribuyen. Antes de cualquier operación real deben verificarse la regulación y las condiciones vigentes.
+Las cotizaciones, contactos y documentos internos no se incluyen en este repositorio. Para una operación real también debe revisarse la regulación vigente aplicable al uso de drones.
 
 [Volver a investigación técnica](README.md)
