@@ -1,18 +1,19 @@
 # Predicción de temperatura a una hora
 
-Adaptación pública de un notebook desarrollado para anticipar la temperatura de un invernadero. Regulariza una serie cada 30 minutos, construye 12 variables y entrena un Random Forest para estimar la temperatura una hora después de la última medición.
+Proyecto en Python para estimar la temperatura de un invernadero una hora después de la última medición disponible.
+
+La serie se trabaja con intervalos de 30 minutos. A partir de los datos se crean rezagos temporales y variables cíclicas de hora y día de la semana. El modelo utilizado es Random Forest.
 
 ## Flujo
 
-1. Leer y validar el CSV.
-2. Ordenar fechas, redondear a 30 minutos y crear una malla temporal sin imputar huecos.
-3. Construir temperatura actual y rezagos de 30 minutos a 24 horas, más seno/coseno de hora y día de la semana.
-4. Entrenar el modelo con los registros que ya tienen objetivo conocido.
-5. Predecir a una hora si están presentes todos los rezagos necesarios.
+1. Cargar y validar el CSV.
+2. Ordenar la serie por fecha.
+3. Ajustar los registros a intervalos de 30 minutos.
+4. Crear rezagos de temperatura y variables temporales.
+5. Entrenar el modelo con los registros disponibles.
+6. Generar la predicción una hora adelante.
 
 ## Ejecutar
-
-Desde esta carpeta:
 
 ```bash
 pip install -r requirements.txt
@@ -21,19 +22,21 @@ jupyter notebook notebook.ipynb
 
 [Ver notebook](notebook.ipynb) · [Abrir en Colab](https://colab.research.google.com/github/juandavidtejedormedina-hub/app-streamlite/blob/main/machine-learning/prediccion-temperatura/notebook.ipynb)
 
-El archivo [temperatura_sintetica.csv](datos/temperatura_sintetica.csv) es artificial y está incluido. En Colab, descargarlo y seleccionarlo cuando el notebook solicite el CSV. Puede regenerarse con `python generar_datos_demo.py`.
+El archivo [temperatura_sintetica.csv](datos/temperatura_sintetica.csv) permite ejecutar el notebook sin usar datos reales. También puede generarse nuevamente con:
 
-## Esquema de entrada
+```bash
+python generar_datos_demo.py
+```
+
+## Formato de entrada
 
 | Columna | Formato |
 | --- | --- |
-| `DateTime` | Fecha y hora, por ejemplo `2026-03-01 00:00:00` |
-| `Temperatura` | Valor numérico en °C; el ejemplo usa coma decimal |
+| `DateTime` | Fecha y hora |
+| `Temperatura` | Valor numérico en °C |
 
-Separador: punto y coma. El filtro que descarta temperaturas menores o iguales a cero es una regla heredada del histórico original; debe revisarse para otro dominio. También debe ajustarse `FECHA_INICIO_ESTABLE` a la serie utilizada.
+El ejemplo usa separador `;`.
 
-## Alcance de los resultados
-
-Este notebook realiza entrenamiento e inferencia, sin evaluación temporal separada. La prueba con datos sintéticos comprueba ejecución, horizonte y manejo de datos faltantes; no mide la precisión en un invernadero real. Las métricas de desarrollo mencionadas en el archivo original se retiraron porque no se recuperó el conjunto de evaluación que las sustentaba.
+Esta versión pública permite revisar el flujo completo de preparación, entrenamiento e inferencia. Los resultados con datos sintéticos sirven para probar el código y no representan precisión en condiciones reales de cultivo.
 
 [Volver a Machine Learning](../README.md)
