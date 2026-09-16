@@ -1,22 +1,25 @@
-# Pipeline de preparación de datos de invernaderos
+# Pipeline de datos de invernaderos
 
-Código recuperado de [Pagina-Web](https://github.com/juandavidtejedormedina-hub/Pagina-Web). Organiza la preparación de datos ambientales y de operación antes del análisis estadístico.
+Scripts en Python para limpiar y preparar datos ambientales antes del análisis.
 
-| Etapa | Archivo | Función |
+## Estructura
+
+| Etapa | Archivo | Trabajo realizado |
 | --- | --- | --- |
-| Limpieza | [limpiar_datos.py](procesamiento/limpiar_datos.py) | Normalización de columnas, fechas, duplicados y registro de reglas aplicadas |
-| Variables derivadas | [generar_variables.py](procesamiento/generar_variables.py) | Variables temporales/cíclicas, rezagos y acumulados |
-| Base estadística | [preparar_analisis_estadistico.py](procesamiento/preparar_analisis_estadistico.py) | Preparación de tablas y reportes para análisis |
+| Limpieza | [limpiar_datos.py](procesamiento/limpiar_datos.py) | Normalización de columnas y fechas, revisión de duplicados y reglas de limpieza |
+| Variables derivadas | [generar_variables.py](procesamiento/generar_variables.py) | Variables temporales, rezagos y acumulados |
+| Preparación estadística | [preparar_analisis_estadistico.py](procesamiento/preparar_analisis_estadistico.py) | Tablas y archivos listos para análisis |
 
-## Datos requeridos
+## Datos
 
-Los registros de operación no se incluyen. El código espera un libro local en `Datos/Raw/Datos Excel.xlsx`, con las hojas y columnas utilizadas en el desarrollo original. Consultar el [diccionario](docs/diccionario_datos.md), la [descripción de variables derivadas](docs/variables_derivadas.md) y las constantes de `limpiar_datos.py` para preparar el esquema.
+El código espera un archivo en `Datos/Raw/Datos Excel.xlsx`. Los datos originales no se publican en este repositorio.
 
-Estos archivos constituyen código recuperado para revisión. Para una demostración ejecutable sin disponer del libro original, usar el [dashboard con generador sintético](../dashboard-invernaderos/README.md).
+El esquema de variables puede revisarse en:
 
-## Ejecución con un libro compatible
+- [Diccionario de datos](docs/diccionario_datos.md)
+- [Variables derivadas](docs/variables_derivadas.md)
 
-Desde esta carpeta:
+## Ejecutar
 
 ```bash
 pip install -r requirements.txt
@@ -25,6 +28,8 @@ python procesamiento/generar_variables.py
 python procesamiento/preparar_analisis_estadistico.py
 ```
 
-Los resultados se escriben en las carpetas `Datos/Procesados`, `Datos/Analiticos` y `Datos/Reportes`. Se conserva la limpieza conservadora: los ceros válidos no se eliminan por ser cero y los duplicados por llave se reportan antes de decidir su tratamiento.
+Los resultados se guardan en `Datos/Procesados`, `Datos/Analiticos` y `Datos/Reportes`.
+
+Para probar una parte del flujo sin datos reales, el [dashboard de invernaderos](../dashboard-invernaderos/README.md) incluye un generador de datos sintéticos.
 
 [Volver a análisis de datos](../README.md)
