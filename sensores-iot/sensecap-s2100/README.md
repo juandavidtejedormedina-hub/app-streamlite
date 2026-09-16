@@ -1,12 +1,12 @@
 # SenseCAP S2100 — Reservorios
 
-[Código JavaScript](codec.js) para el formato de dos mediciones utilizado en el proyecto recuperado. Espera `fPort: 3`, once bytes, cabecera `0x31`, canales `0x12` y dos enteros de 32 bits en orden big-endian.
+Codec JavaScript utilizado para interpretar el formato de datos del SenseCAP S2100 en el proyecto de nivel de reservorios.
 
-El codec convierte la primera medida a metros, centímetros y milímetros, y la segunda a temperatura. Rechaza puerto, longitud, tipo de trama o canales inesperados y reconoce el valor reservado `0x80000000`. La cabecera diagnóstica `0x12` se identifica sin inventar mediciones.
+La trama esperada usa `fPort: 3` e incluye dos mediciones. El codec convierte la primera a distancia/nivel y la segunda a temperatura.
 
-Estas reglas corresponden a esa configuración del proyecto; no son un decodificador universal de todos los modos del S2100. No se incluye el Excel de validación de campo mencionado en los comentarios originales.
+También valida longitud, cabecera, canales y valores reservados antes de devolver los datos.
 
-## Ejemplo sintético
+## Ejemplo
 
 ```javascript
 decodeUplink({
@@ -15,6 +15,8 @@ decodeUplink({
 });
 ```
 
-Valores esperados: **1,234 m** y **25 °C**. [Pruebas](../pruebas-codecs.cjs).
+Resultado esperado para este ejemplo: **1,234 m** y **25 °C**.
 
-[Volver a sensores](../README.md)
+Las reglas corresponden a la configuración usada en este proyecto y no a todos los modos posibles del S2100.
+
+[Ver codec](codec.js) · [Pruebas](../pruebas-codecs.cjs) · [Volver a sensores](../README.md)
