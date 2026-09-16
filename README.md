@@ -2,55 +2,66 @@
 
 # Juan David Tejedor Medina
 
-### Análisis de datos · Ciencia de datos · Machine Learning
+### Data Analyst · Data Science · Machine Learning
 
-[![Validación del portafolio](https://github.com/juandavidtejedormedina-hub/app-streamlite/actions/workflows/portfolio-checks.yml/badge.svg)](https://github.com/juandavidtejedormedina-hub/app-streamlite/actions/workflows/portfolio-checks.yml)
+Ingeniero Electrónico de la UPTC y estudiante de la Especialización en Programación para Ciencia de Datos. Me interesa trabajar con datos desde su origen: adquisición, limpieza, análisis, modelado y visualización.
 
-Ingeniero Electrónico de la UPTC y estudiante de la Especialización en Programación para Ciencia de Datos. Mi trabajo conecta datos de sensores, análisis exploratorio, modelos predictivos y aplicaciones de visualización.
-
-Este portafolio reúne proyectos académicos y versiones públicas de desarrollos aplicados. Los ejemplos laborales utilizan datos sintéticos o describen la solución sin incluir registros operativos.
+En este repositorio reuní proyectos académicos y desarrollos personales relacionados con Python, Machine Learning, análisis de datos, dashboards e IoT. Cuando un proyecto parte de un caso laboral, la versión pública usa datos sintéticos o información anonimizada.
 
 [LinkedIn](https://www.linkedin.com/in/juan-david-tejedor-medina-ab0756372) · [GitHub](https://github.com/juandavidtejedormedina-hub) · [Correo](mailto:juandavidtejedormedina@gmail.com)
 
-## Proyectos destacados
+## Proyectos
 
-| Proyecto | Qué demuestra | Herramientas y entrega |
-| --- | --- | --- |
-| [Predicción de temperatura a una hora](machine-learning/prediccion-temperatura/README.md) | Preparación de series de tiempo, rezagos, variables cíclicas e inferencia con Random Forest | Python, pandas, scikit-learn; notebook y CSV sintético |
-| [Dashboard de invernaderos](analisis-de-datos/dashboard-invernaderos/README.md) | Limpieza, visualización temporal, comparación de sensores y análisis de apertura de cortinas | Streamlit, Plotly, pandas; dos aplicaciones y generador de datos |
-| [Estadística y EDA — Bank Marketing](especializacion/07-estadistica-bank-marketing/README.md) | Análisis exploratorio, probabilidades y estimación bayesiana sobre datos públicos | Informe académico de 29 páginas |
-| [Seq2Seq con atención](especializacion/05-seq2seq-atencion/README.md) | Pronóstico multistep de temperatura con un baseline diario y atención de Bahdanau | TensorFlow/Keras; notebook |
-| [RAG sobre documentos](machine-learning/rag-documental/README.md) | Extracción de PDF, embeddings, recuperación de fragmentos y generación local | Python, PyMuPDF, Ollama; repositorio propio enlazado |
-| [Clustering en una aplicación web](desarrollo-web/flask-kmeans/README.md) | Integración de un modelo de K-Means con un formulario web | Flask, scikit-learn; demostración con datos de ejemplo |
-| [Investigación técnica aplicada](investigacion-tecnica/README.md) | Evaluación de dispositivos, luminarias, motores, autonomía solar y arquitectura IoT | Matrices de decisión, criterios de aceptación y documentación pública anonimizada |
+### Predicción de temperatura
+Modelo en Python para estimar la temperatura de un invernadero una hora adelante usando series temporales y Random Forest.
 
-## Explorar por área
+[Ver proyecto](machine-learning/prediccion-temperatura/README.md)
 
-| Carpeta | Contenido |
-| --- | --- |
-| [Especialización](especializacion/README.md) | Seis notebooks de Deep Learning y un informe de estadística y EDA |
-| [Análisis de datos](analisis-de-datos/README.md) | Dashboards, limpieza, variables derivadas y preparación estadística |
-| [Machine Learning](machine-learning/README.md) | Predicción de temperatura y acceso al proyecto RAG |
-| [Desarrollo web](desarrollo-web/README.md) | Aplicación Flask y acceso a las aplicaciones de datos |
-| [Sensores e IoT](sensores-iot/README.md) | Tres codecs JavaScript, pruebas y casos de reservorios y monitoreo energético |
-| [Power BI](power-bi/README.md) | Estado de los entregables recuperados y relación con el trabajo de visualización |
-| [Investigación técnica](investigacion-tecnica/README.md) | Casos resumidos de evaluación, selección tecnológica y diseño de soluciones |
+### Dashboard de invernaderos
+Aplicación en Streamlit para explorar temperatura, humedad, radiación PAR, contenido de agua y registros de apertura de cortinas.
 
-## Competencias demostradas
+[Ver proyecto](analisis-de-datos/dashboard-invernaderos/README.md)
 
-| Área | Evidencia dentro del portafolio |
-| --- | --- |
-| Python y análisis | pandas, NumPy, limpieza, variables derivadas, EDA y preparación estadística |
-| Machine Learning | clasificación, regresión, clustering, Random Forest, RNN/LSTM/GRU, atención y modelos generativos |
-| SQL y datos | consultas analíticas documentadas, diccionarios de datos y diseño de pipelines |
-| Visualización | Streamlit, Plotly y dashboards reproducibles con datos sintéticos |
-| IoT industrial | RS-485/Modbus, UART, LoRaWAN, ChirpStack y codecs JavaScript |
-| Investigación | matrices comparativas, criterios técnicos, trazabilidad de fuentes y recomendaciones |
+### Estadística y EDA — Bank Marketing
+Análisis exploratorio de un conjunto público de UCI con estadística descriptiva, probabilidades y estimación bayesiana.
 
-La relación detallada entre habilidades y entregables está en la [matriz de competencias](docs/MATRIZ_COMPETENCIAS.md). Para una revisión rápida, consultar la [guía para reclutadores](docs/GUIA_RECLUTADOR.md).
+[Ver proyecto](especializacion/07-estadistica-bank-marketing/README.md)
 
-## Probar un proyecto
+### Deep Learning
+Notebooks de clasificación, regularización, RNN, LSTM, GRU, Encoder–Decoder, Seq2Seq con atención y modelos generativos.
 
-Cada carpeta incluye sus instrucciones y dependencias. Para comenzar, la aplicación Flask y el notebook de temperatura funcionan con datos de ejemplo. Los dashboards incluyen un generador local de Excel sintéticos. Los notebooks de la especialización tienen enlaces para abrirlos en Colab.
+[Ver proyectos](especializacion/README.md)
 
-Las pruebas realizadas y su alcance están en [VALIDACION.md](docs/VALIDACION.md). La [procedencia y autoría](docs/PROCEDENCIA.md) distingue entregas grupales, material del curso, adaptaciones públicas y código procedente de mis otros repositorios.
+### Sensores e IoT
+Codecs y documentación técnica para dispositivos LoRaWAN, integración de sensores y casos de monitoreo en campo.
+
+[Ver proyectos](sensores-iot/README.md)
+
+### RAG documental
+Proyecto académico de recuperación de información sobre documentos PDF usando embeddings y modelos locales con Ollama.
+
+[Ver proyecto](machine-learning/rag-documental/README.md)
+
+### Investigación técnica
+Comparativas y evaluaciones de dispositivos LoRaWAN, motores, luminarias, autonomía solar y arquitectura IoT.
+
+[Ver proyectos](investigacion-tecnica/README.md)
+
+## Tecnologías
+
+**Datos y programación:** Python, pandas, NumPy, SQL, R  
+**Machine Learning:** scikit-learn, TensorFlow/Keras, clustering, regresión, clasificación y series temporales  
+**Visualización:** Streamlit, Plotly, Matplotlib  
+**IoT:** LoRaWAN, ChirpStack, RS-485/Modbus, UART, ESP32 y codecs JavaScript  
+**Desarrollo:** Flask, Git, GitHub y Jupyter/Colab
+
+## Organización del repositorio
+
+- [Análisis de datos](analisis-de-datos/README.md)
+- [Machine Learning](machine-learning/README.md)
+- [Especialización](especializacion/README.md)
+- [Desarrollo web](desarrollo-web/README.md)
+- [Sensores e IoT](sensores-iot/README.md)
+- [Investigación técnica](investigacion-tecnica/README.md)
+
+Las instrucciones de ejecución están dentro de cada proyecto. También mantengo una [validación automática](docs/VALIDACION.md) para comprobar los ejemplos públicos y los enlaces principales.
