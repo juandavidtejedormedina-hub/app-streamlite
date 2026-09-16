@@ -1,31 +1,27 @@
-# Selección de dispositivos LoRaWAN para sensores
+# Selección de dispositivos LoRaWAN
 
 ## Objetivo
 
-Elegir equipos capaces de adquirir sensores de campo y enviar los datos hacia un servidor LoRaWAN en aplicaciones agrícolas. La comparación consideró más que el precio de compra: integración, consumo, protección y mantenibilidad cambian el costo real del despliegue.
+Comparar equipos capaces de leer sensores de campo y enviar la información a una red LoRaWAN para aplicaciones agrícolas.
 
-## Matriz de evaluación
+## Criterios usados
 
-| Dimensión | Pregunta de control |
+| Aspecto | Revisión |
 | --- | --- |
-| Interfaz | ¿Dispone de RS-485/Modbus, SDI-12 o UART según el sensor? |
-| Radio | ¿Soporta la banda y el plan de canales requeridos? |
-| Operación | ¿Trabaja como Clase A y permite configurar intervalos y datalogging? |
-| Energía | ¿Integra batería, entrada solar y estrategia de bajo consumo? |
-| Protección | ¿La envolvente y los conectores son adecuados para exteriores? |
-| Integración | ¿Existe codec, documentación de payload y comandos remotos? |
-| Soporte | ¿Hay manual, firmware, disponibilidad y soporte verificable? |
+| Interfaz | RS-485/Modbus, SDI-12 o UART según el sensor |
+| Radio | Banda y plan de canales requeridos |
+| Operación | Clase A, intervalos configurables y almacenamiento local |
+| Energía | Batería, entrada solar y consumo |
+| Protección | Gabinete y conectores para exteriores |
+| Integración | Codec, formato de payload y comandos remotos |
+| Soporte | Manuales, firmware y disponibilidad |
 
-## Equipos estudiados
+Se revisaron equipos de Dragino, Milesight, SenseCAP, Appcon, Taiga y otros fabricantes. Entre los dispositivos probados estuvieron Dragino WSC2-L, SenseCAP S2100 y Dragino LHT65N.
 
-Se revisaron alternativas de Dragino, Milesight, Seeed Studio/SenseCAP, Appcon, Taiga y otros fabricantes. Las pruebas aplicadas incluyeron el **Dragino WSC2-L**, el **SenseCAP S2100** y el **Dragino LHT65N**. Los codecs públicos y sus vectores sintéticos están en [Sensores e IoT](../sensores-iot/README.md).
+El WSC2-L se utilizó como referencia para adquisición multivariable; el S2100 se aplicó en medición de nivel de reservorios y el LHT65N en temperatura, humedad y pruebas de almacenamiento temporal de mensajes.
 
-## Resultado de ingeniería
+Algunas alternativas se descartaron por no tener la interfaz requerida o por no cubrir completamente el caso de uso.
 
-El WSC2-L quedó como referencia operativa para adquisición multivariable; el S2100 se empleó en el caso de nivel de reservorios; y el LHT65N se evaluó para temperatura, humedad y almacenamiento temporal de mensajes. Algunas opciones se descartaron porque no exponían la interfaz UART requerida o porque su integración no cubría el caso de uso completo.
-
-## Límite público
-
-No se publican cotizaciones, números de serie, claves, identificadores LoRaWAN ni ubicaciones. La selección final depende del sensor, el consumo, el montaje y la disponibilidad comercial del momento.
+No se publican cotizaciones, números de serie, claves ni identificadores LoRaWAN.
 
 [Volver a investigación técnica](README.md)
