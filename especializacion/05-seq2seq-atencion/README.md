@@ -1,23 +1,26 @@
 # Seq2Seq con atención de Bahdanau
 
-48 horas de entrada para pronosticar 24 horas de temperatura; comparación con un baseline diario.
+Notebook académico para pronosticar 24 horas de temperatura usando 48 horas de información previa.
 
-**Herramientas:** Python, TensorFlow/Keras, NumPy, pandas, scikit-learn y Matplotlib, según los imports del cuaderno.
+## Herramientas
 
-**Datos:** Jena Climate 2009–2016. El notebook solicita el CSV o ZIP; descargarlo desde la fuente enlazada en su primera sección.
+Python, TensorFlow/Keras, NumPy, pandas, scikit-learn y Matplotlib.
 
-## Abrir el proyecto
+## Datos
 
-[Ver el notebook](notebook.ipynb) · [Abrir en Colab](https://colab.research.google.com/github/juandavidtejedormedina-hub/app-streamlite/blob/main/especializacion/05-seq2seq-atencion/notebook.ipynb)
+Jena Climate 2009–2016. El notebook solicita el archivo CSV o ZIP indicado en su primera sección.
 
-También puede ejecutarse con Jupyter. Desde esta carpeta, instalar `pip install -r ../requirements.txt` y abrir `notebook.ipynb`. Para los modelos más costosos conviene un entorno con GPU. Seq2Seq conserva el selector de archivos de Colab.
+El ejercicio implementa una arquitectura Seq2Seq con atención de Bahdanau y compara el resultado con un baseline diario.
 
-## Qué revisar
+[Ver notebook](notebook.ipynb) · [Abrir en Colab](https://colab.research.google.com/github/juandavidtejedormedina-hub/app-streamlite/blob/main/especializacion/05-seq2seq-atencion/notebook.ipynb)
 
-La preparación de los datos, la separación de entrenamiento y prueba, la arquitectura, las métricas elegidas y las conclusiones del experimento. Las métricas de las conclusiones son referencias de la entrega original; esta edición no constituye un nuevo entrenamiento.
+Para ejecutarlo localmente:
 
-## Autoría y alcance
+```bash
+pip install -r ../requirements.txt
+jupyter notebook notebook.ipynb
+```
 
-Entrega académica recuperada. Se mantienen los nombres del grupo y del docente donde figuran en el notebook. Los ejercicios basados en material del curso se presentan como actividades desarrolladas sobre esa base. [Detalle de procedencia](../../docs/PROCEDENCIA.md).
+Este trabajo hace parte de las actividades académicas de la especialización. Los nombres de los integrantes y docentes se conservan dentro del notebook cuando aparecen en la entrega original.
 
 [Volver a especialización](../README.md)
