@@ -1,17 +1,17 @@
 # Especialización en Programación para Ciencia de Datos
 
-Selección de entregas de la UPTC, con atribución de los trabajos grupales y del material docente.
+Proyectos desarrollados durante la especialización en la UPTC. Incluyen ejercicios de Machine Learning, Deep Learning, series temporales y análisis estadístico.
 
-| Proyecto | Contenido |
+| Proyecto | Tema |
 | --- | --- |
-| [Clasificación multiclase y regresión](01-clasificacion-y-regresion/README.md) | Redes densas para clasificación de cuatro clases y regresión; comparación de métricas y curvas de aprendizaje. |
-| [Desbalance de clases y regularización](02-desbalance-y-regularizacion/README.md) | Evaluación con F1 macro y balanced accuracy; regularización L2 y Dropout en regresión. |
-| [Pronóstico meteorológico con RNN, LSTM y GRU](03-rnn-meteorologia/README.md) | Comparación de redes recurrentes frente a persistencia, con separación temporal de entrenamiento y prueba. |
-| [Encoder–Decoder para pronóstico multistep](04-encoder-decoder/README.md) | Predicción de varias horas futuras y experimentos con ventanas, horizontes y arquitecturas recurrentes. |
-| [Seq2Seq con atención de Bahdanau](05-seq2seq-atencion/README.md) | 48 horas de entrada para pronosticar 24 horas de temperatura; comparación con un baseline diario. |
-| [Conditional GAN y Variational Autoencoder](06-modelos-generativos/README.md) | Entrenamiento y comparación de modelos generativos sobre CIFAR-10. |
-| [Estadística y EDA — Bank Marketing](07-estadistica-bank-marketing/README.md) | Análisis exploratorio, probabilidad y estimación bayesiana; informe original. |
+| [Clasificación multiclase y regresión](01-clasificacion-y-regresion/README.md) | Redes densas para clasificación y regresión |
+| [Desbalance de clases y regularización](02-desbalance-y-regularizacion/README.md) | F1 macro, balanced accuracy, L2 y Dropout |
+| [Pronóstico meteorológico con RNN, LSTM y GRU](03-rnn-meteorologia/README.md) | Comparación de arquitecturas recurrentes |
+| [Encoder–Decoder](04-encoder-decoder/README.md) | Pronóstico multistep con redes recurrentes |
+| [Seq2Seq con atención](05-seq2seq-atencion/README.md) | Pronóstico de temperatura con atención de Bahdanau |
+| [Modelos generativos](06-modelos-generativos/README.md) | Conditional GAN y Variational Autoencoder |
+| [Estadística y EDA — Bank Marketing](07-estadistica-bank-marketing/README.md) | Estadística descriptiva, probabilidad y estimación bayesiana |
 
-Las salidas de los seis notebooks se retiraron para mantener archivos legibles. El código y las conclusiones originales se conservan. Consultar el README de cada proyecto para datos y ejecución.
+Los notebooks conservan el contenido académico original y los nombres de los integrantes cuando corresponden. Las salidas de ejecución se retiraron para reducir el tamaño de los archivos.
 
 [Volver al portafolio](../README.md)
