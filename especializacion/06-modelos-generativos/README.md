@@ -1,23 +1,26 @@
-# Conditional GAN y Variational Autoencoder
+# Modelos generativos: Conditional GAN y VAE
 
-Entrenamiento y comparación de modelos generativos sobre CIFAR-10.
+Notebook académico para trabajar generación de imágenes con dos enfoques: Conditional GAN y Variational Autoencoder.
 
-**Herramientas:** Python, TensorFlow/Keras, NumPy, pandas, scikit-learn y Matplotlib, según los imports del cuaderno.
+## Herramientas
 
-**Datos:** CIFAR-10, descargado mediante Keras. La primera ejecución necesita acceso a internet.
+Python, TensorFlow/Keras, NumPy, pandas, scikit-learn y Matplotlib.
 
-## Abrir el proyecto
+## Datos
 
-[Ver el notebook](notebook.ipynb) · [Abrir en Colab](https://colab.research.google.com/github/juandavidtejedormedina-hub/app-streamlite/blob/main/especializacion/06-modelos-generativos/notebook.ipynb)
+CIFAR-10, descargado mediante Keras.
 
-También puede ejecutarse con Jupyter. Desde esta carpeta, instalar `pip install -r ../requirements.txt` y abrir `notebook.ipynb`. Para los modelos más costosos conviene un entorno con GPU. Seq2Seq conserva el selector de archivos de Colab.
+El ejercicio incluye preparación de datos, construcción de las arquitecturas, entrenamiento y comparación de resultados.
 
-## Qué revisar
+[Ver notebook](notebook.ipynb) · [Abrir en Colab](https://colab.research.google.com/github/juandavidtejedormedina-hub/app-streamlite/blob/main/especializacion/06-modelos-generativos/notebook.ipynb)
 
-La preparación de los datos, la separación de entrenamiento y prueba, la arquitectura, las métricas elegidas y las conclusiones del experimento. Las métricas de las conclusiones son referencias de la entrega original; esta edición no constituye un nuevo entrenamiento.
+Para ejecutarlo localmente:
 
-## Autoría y alcance
+```bash
+pip install -r ../requirements.txt
+jupyter notebook notebook.ipynb
+```
 
-Entrega académica recuperada. Se mantienen los nombres del grupo y del docente donde figuran en el notebook. Los ejercicios basados en material del curso se presentan como actividades desarrolladas sobre esa base. [Detalle de procedencia](../../docs/PROCEDENCIA.md).
+La primera ejecución necesita conexión a internet para descargar CIFAR-10. Este trabajo hace parte de las actividades académicas de la especialización.
 
 [Volver a especialización](../README.md)
