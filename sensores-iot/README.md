@@ -1,14 +1,20 @@
 # Sensores e IoT
 
-Código y casos aplicados que conectan instrumentación electrónica con datos utilizables para análisis.
+Proyectos relacionados con adquisición de datos, LoRaWAN y decodificación de payloads.
 
 | Proyecto | Contenido |
 | --- | --- |
-| [SenseCAP S2100](sensecap-s2100/README.md) | Validación y decodificación de nivel/distancia y temperatura |
-| [Dragino LHT65N](dragino-lht65n/README.md) | Codec con interfaces `decodeUplink` y `Decode` |
-| [Dragino WSC2-L](dragino-wsc2-l/README.md) | Decodificación de estado y segmentos de sensores ambientales |
-| [Reservorios y monitoreo energético](casos-aplicados.md) | Resumen de integración, datos y estado documentado |
+| [SenseCAP S2100](sensecap-s2100/README.md) | Decodificación de nivel/distancia y temperatura |
+| [Dragino LHT65N](dragino-lht65n/README.md) | Codec compatible con distintas interfaces de decodificación |
+| [Dragino WSC2-L](dragino-wsc2-l/README.md) | Decodificación de variables ambientales y mensajes de estado |
+| [Casos aplicados](casos-aplicados.md) | Reservorios y monitoreo energético |
 
-Ejecutar las pruebas con `node pruebas-codecs.cjs` desde esta carpeta. Los vectores de prueba son sintéticos y comprueban el comportamiento del código; no sustituyen validación con dispositivos y firmware reales.
+Las pruebas de codecs pueden ejecutarse con:
+
+```bash
+node pruebas-codecs.cjs
+```
+
+Los vectores usados en las pruebas son sintéticos y sirven para comprobar el comportamiento del código. La validación final siempre debe hacerse con el dispositivo, firmware y sensores reales.
 
 [Volver al portafolio](../README.md)
