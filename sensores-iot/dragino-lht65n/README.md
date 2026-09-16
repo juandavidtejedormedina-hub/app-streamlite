@@ -1,7 +1,11 @@
 # Dragino LHT65N
 
-[Codec recuperado](codec.js) con entradas `decodeUplink(input)` y `Decode(fPort, bytes, variables)`. La segunda interfaz resuelve la incompatibilidad con entornos que invocan `Decode`.
+Codec JavaScript para decodificar mensajes del Dragino LHT65N.
 
-Contempla mensajes de estado, mediciones normales y registros almacenados según el puerto y los indicadores del payload. Antes de usarlo con un equipo, comprobar modelo, sonda, firmware y formato real del mensaje. Se mantienen las conversiones del código recuperado; no se afirma certificación del fabricante.
+Incluye compatibilidad con las interfaces `decodeUplink(input)` y `Decode(fPort, bytes, variables)`, lo que permite usarlo en entornos que esperan cualquiera de las dos funciones.
 
-[Pruebas de entradas sintéticas](../pruebas-codecs.cjs) · [Volver a sensores](../README.md)
+El código contempla mensajes de estado, mediciones normales y registros almacenados según el puerto y el contenido del payload.
+
+Antes de usarlo con otro equipo conviene verificar modelo, sonda, firmware y formato de mensaje, ya que pueden existir diferencias entre versiones.
+
+[Ver codec](codec.js) · [Pruebas](../pruebas-codecs.cjs) · [Volver a sensores](../README.md)
