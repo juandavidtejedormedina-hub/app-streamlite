@@ -1,8 +1,6 @@
 # Arquitectura MCI para monitoreo de invernaderos
 
-## Propósito
-
-Diseñar una plataforma modular que conecte variables internas y externas del invernadero con una red LoRaWAN y una capa de análisis. La arquitectura separa adquisición, transporte, almacenamiento y visualización para que cada parte pueda probarse de forma independiente.
+El proyecto MCI conecta sensores internos y externos del invernadero con una red LoRaWAN y una capa de análisis.
 
 ```mermaid
 flowchart TD
@@ -13,25 +11,23 @@ flowchart TD
     E --> F[Dashboard y modelos]
 ```
 
-## Capas
+## Componentes
 
-1. **Adquisición:** sensores ambientales, meteorológicos y analógicos mediante RS-485/Modbus, UART, I²C y ADC.
-2. **Nodo:** ESP32/Heltec, RTC y microSD para control local, sello temporal y respaldo.
-3. **Transporte:** radio LoRaWAN Clase A en la banda definida para el despliegue; configuración y diagnóstico por comandos.
-4. **Servidor:** gateway, ChirpStack, decodificación y entrega de datos estructurados.
-5. **Aplicación:** limpieza, series temporales, dashboard y modelos predictivos.
+1. **Sensores:** variables ambientales, meteorológicas y analógicas mediante RS-485/Modbus, UART, I²C y ADC.
+2. **Nodo:** ESP32/Heltec, RTC y microSD para lectura, control y almacenamiento local.
+3. **Comunicación:** LoRaWAN Clase A para enviar la información hacia el gateway.
+4. **Servidor:** ChirpStack y decodificación de los payloads.
+5. **Aplicación:** limpieza, visualización y modelos de análisis.
 
-## Resiliencia
+El almacenamiento local permite conservar mediciones cuando se pierde temporalmente la comunicación. El diseño también contempla alimentación autónoma, gabinete para exteriores y montaje de antena.
 
-El almacenamiento local reduce la pérdida de observaciones durante interrupciones de enlace. El diseño contempla energía autónoma, gabinete para exteriores, antena correctamente ubicada y separación entre cableado de señal y potencia.
+Proyectos relacionados:
 
-## Evidencia relacionada
-
-- [Codecs y pruebas LoRaWAN](../sensores-iot/README.md)
-- [Pipeline de preparación](../analisis-de-datos/pipeline-invernaderos/README.md)
-- [Dashboard de invernaderos](../analisis-de-datos/dashboard-invernaderos/README.md)
+- [Codecs LoRaWAN](../sensores-iot/README.md)
+- [Pipeline de datos](../analisis-de-datos/pipeline-invernaderos/README.md)
+- [Dashboard](../analisis-de-datos/dashboard-invernaderos/README.md)
 - [Predicción de temperatura](../machine-learning/prediccion-temperatura/README.md)
 
-El diagrama es una vista pública simplificada; no contiene direcciones, credenciales, topología corporativa ni planos de montaje.
+El diagrama es una versión simplificada y no incluye información interna de infraestructura.
 
 [Volver a investigación técnica](README.md)
