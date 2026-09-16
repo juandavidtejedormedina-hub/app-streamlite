@@ -1,30 +1,29 @@
 # Método para comparativas técnicas
 
-## Flujo reproducible
+Proceso que uso para organizar comparaciones de equipos y soluciones técnicas.
 
-1. **Definir el problema:** variable a medir, entorno, frecuencia, autonomía, comunicación y salida esperada.
-2. **Separar requisitos:** obligatorios, deseables y restricciones de descarte.
-3. **Normalizar evidencia:** llevar fichas, manuales, pruebas y cotizaciones a unidades y campos comunes.
-4. **Registrar fuente y fecha:** distinguir dato del fabricante, distribuidor, ensayo propio e inferencia.
-5. **Aplicar filtros:** descartar primero lo que incumple un requisito obligatorio.
-6. **Ponderar criterios:** puntuar únicamente alternativas viables y documentar los pesos.
-7. **Analizar riesgos:** disponibilidad, integración, soporte, seguridad, obsolescencia y costo total.
-8. **Emitir recomendación:** incluir supuestos, límites y pruebas pendientes.
+## Pasos
 
-## Plantilla mínima
+1. Definir qué problema se quiere resolver.
+2. Separar requisitos obligatorios de características deseables.
+3. Llevar fichas técnicas, manuales y pruebas a una tabla común.
+4. Registrar la fuente y fecha de cada dato importante.
+5. Descartar primero las opciones que no cumplen requisitos básicos.
+6. Comparar las alternativas restantes con los mismos criterios.
+7. Revisar integración, disponibilidad, mantenimiento y costo total.
+8. Documentar la decisión y los puntos que todavía requieren prueba.
 
-| Campo | Contenido esperado |
+## Tabla mínima
+
+| Campo | Contenido |
 | --- | --- |
-| Necesidad | Qué decisión se debe tomar y para qué |
-| Requisitos | Umbrales verificables y condiciones de descarte |
-| Alternativas | Referencia exacta y versión |
-| Evidencia | Fuente, fecha y nivel de confianza |
-| Resultado | Cumple, no cumple o información insuficiente |
-| Riesgos | Dependencias y validaciones pendientes |
-| Recomendación | Alternativa elegida y razones |
+| Necesidad | Qué se necesita resolver |
+| Requisitos | Condiciones obligatorias |
+| Alternativas | Equipos o referencias comparadas |
+| Fuente | Manual, ficha, prueba o distribuidor |
+| Resultado | Cumple, no cumple o falta información |
+| Observaciones | Riesgos o pruebas pendientes |
 
-## Principio central
-
-La ausencia de información no equivale a cumplimiento. Cuando un parámetro crítico no puede verificarse, debe registrarse como **información insuficiente** y convertirse en una acción de validación.
+Cuando falta un dato crítico, prefiero registrarlo como **información insuficiente** en lugar de asumir que el equipo cumple.
 
 [Volver a investigación técnica](README.md)
