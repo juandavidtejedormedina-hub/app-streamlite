@@ -4,6 +4,8 @@
 
 ### Análisis de datos · Ciencia de datos · Machine Learning
 
+[![Validación del portafolio](https://github.com/juandavidtejedormedina-hub/app-streamlite/actions/workflows/portfolio-checks.yml/badge.svg)](https://github.com/juandavidtejedormedina-hub/app-streamlite/actions/workflows/portfolio-checks.yml)
+
 Ingeniero Electrónico de la UPTC y estudiante de la Especialización en Programación para Ciencia de Datos. Mi trabajo conecta datos de sensores, análisis exploratorio, modelos predictivos y aplicaciones de visualización.
 
 Este portafolio reúne proyectos académicos y versiones públicas de desarrollos aplicados. Los ejemplos laborales utilizan datos sintéticos o describen la solución sin incluir registros operativos.
@@ -20,6 +22,7 @@ Este portafolio reúne proyectos académicos y versiones públicas de desarrollo
 | [Seq2Seq con atención](especializacion/05-seq2seq-atencion/README.md) | Pronóstico multistep de temperatura con un baseline diario y atención de Bahdanau | TensorFlow/Keras; notebook |
 | [RAG sobre documentos](machine-learning/rag-documental/README.md) | Extracción de PDF, embeddings, recuperación de fragmentos y generación local | Python, PyMuPDF, Ollama; repositorio propio enlazado |
 | [Clustering en una aplicación web](desarrollo-web/flask-kmeans/README.md) | Integración de un modelo de K-Means con un formulario web | Flask, scikit-learn; demostración con datos de ejemplo |
+| [Investigación técnica aplicada](investigacion-tecnica/README.md) | Evaluación de dispositivos, luminarias, motores, autonomía solar y arquitectura IoT | Matrices de decisión, criterios de aceptación y documentación pública anonimizada |
 
 ## Explorar por área
 
@@ -31,6 +34,20 @@ Este portafolio reúne proyectos académicos y versiones públicas de desarrollo
 | [Desarrollo web](desarrollo-web/README.md) | Aplicación Flask y acceso a las aplicaciones de datos |
 | [Sensores e IoT](sensores-iot/README.md) | Tres codecs JavaScript, pruebas y casos de reservorios y monitoreo energético |
 | [Power BI](power-bi/README.md) | Estado de los entregables recuperados y relación con el trabajo de visualización |
+| [Investigación técnica](investigacion-tecnica/README.md) | Casos resumidos de evaluación, selección tecnológica y diseño de soluciones |
+
+## Competencias demostradas
+
+| Área | Evidencia dentro del portafolio |
+| --- | --- |
+| Python y análisis | pandas, NumPy, limpieza, variables derivadas, EDA y preparación estadística |
+| Machine Learning | clasificación, regresión, clustering, Random Forest, RNN/LSTM/GRU, atención y modelos generativos |
+| SQL y datos | consultas analíticas documentadas, diccionarios de datos y diseño de pipelines |
+| Visualización | Streamlit, Plotly y dashboards reproducibles con datos sintéticos |
+| IoT industrial | RS-485/Modbus, UART, LoRaWAN, ChirpStack y codecs JavaScript |
+| Investigación | matrices comparativas, criterios técnicos, trazabilidad de fuentes y recomendaciones |
+
+La relación detallada entre habilidades y entregables está en la [matriz de competencias](docs/MATRIZ_COMPETENCIAS.md). Para una revisión rápida, consultar la [guía para reclutadores](docs/GUIA_RECLUTADOR.md).
 
 ## Probar un proyecto
 

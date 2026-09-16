@@ -7,11 +7,13 @@ pip install -r requirements-validacion.txt
 MPLBACKEND=Agg python verificar_portafolio.py
 ```
 
+El mismo comando se ejecuta automáticamente en cada `push` y `pull request` mediante [GitHub Actions](../.github/workflows/portfolio-checks.yml).
+
 Se requiere Node.js para las pruebas de codecs. `MPLBACKEND=Agg` selecciona el backend sin ventana de Matplotlib; en Windows puede definirse como variable de entorno antes de ejecutar Python.
 
 ## Resultado de la revisión
 
-Septiembre de 2026, Python 3.12: **seis pruebas funcionales correctas**, incluyendo **22 comprobaciones de codecs**. Los dos dashboards cargaron sin excepciones; también se comprobaron las vistas WIGA, Cortinas, Promedio y Varianza de la aplicación principal. Las dependencias utilizadas están fijadas en `requirements-validacion.txt`.
+Septiembre de 2026, Python 3.12: **seis pruebas funcionales correctas**, incluyendo **22 comprobaciones de codecs**. Los dos dashboards cargaron sin excepciones; también se comprobaron las vistas WIGA, Cortinas, Promedio y Varianza de la aplicación principal. Los nuevos documentos y su navegación pasaron la comprobación automática de enlaces. Las dependencias utilizadas están fijadas en `requirements-validacion.txt`.
 
 ## Comprobaciones
 
