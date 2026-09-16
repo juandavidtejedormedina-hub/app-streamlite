@@ -1,7 +1,11 @@
 # Dragino WSC2-L
 
-[Codec recuperado](codec.js) compatible con la interfaz de ChirpStack v4. Incluye mensajes de estado en puerto 5, mediciones en puerto 2 y manejo de payloads vacíos o incompletos.
+Codec JavaScript para mensajes del Dragino WSC2-L en ChirpStack v4.
 
-El desarrollo incorpora decodificación de segmentos de sensores ambientales, viento y PAR, además de filtros para valores reservados. El mapeo se conserva como parte del código del proyecto y debe contrastarse con el firmware y sensores conectados al equipo que vaya a utilizarlo.
+El código maneja mensajes de estado y mediciones de sensores ambientales, además de validaciones para payloads vacíos o incompletos.
 
-[Pruebas de entradas sintéticas](../pruebas-codecs.cjs) · [Volver a sensores](../README.md)
+También incluye decodificación de variables relacionadas con viento y radiación PAR según la configuración usada en el proyecto.
+
+Antes de reutilizarlo con otra instalación se debe comparar el formato con el firmware y los sensores conectados al equipo.
+
+[Ver codec](codec.js) · [Pruebas](../pruebas-codecs.cjs) · [Volver a sensores](../README.md)
