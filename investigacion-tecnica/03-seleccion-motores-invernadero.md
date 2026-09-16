@@ -1,27 +1,23 @@
-# Selección de motores para ventilación de invernaderos
+# Selección de motores para invernaderos
 
 ## Necesidad
 
-Evaluar motorreductores para cortinas cenitales, frontales, laterales y de culata. El sistema mecánico utiliza doble eje con relación 1:1 y exige compatibilidad entre torque, tensión, montaje y ciclo de operación.
+Comparar motorreductores para cortinas cenitales, frontales, laterales y de culata, teniendo en cuenta la parte mecánica y eléctrica del sistema.
 
-## Requisitos considerados
+## Criterios usados
 
-- Alimentación disponible y compatibilidad con la infraestructura eléctrica.
-- Torque requerido según la carga y la aplicación.
-- Doble salida o adaptación mecánica compatible con el eje.
-- Finales de carrera, protección ambiental y facilidad de mantenimiento.
-- Posibilidad de control e integración con la arquitectura de automatización.
+- Tensión de alimentación.
+- Torque requerido.
+- Compatibilidad con el sistema de doble eje.
+- Finales de carrera.
+- Protección para ambiente de invernadero.
+- Facilidad de control e integración.
+- Disponibilidad de información técnica.
 
-## Inventario consolidado
+Primero se descartaron las referencias que no cumplían requisitos básicos de tensión, montaje o torque. Después se compararon las alternativas restantes por control, protección y facilidad de integración.
 
-El levantamiento separó motores AC y DC y los clasificó por tipo de ventilación. Esta estructura permitió dimensionar fuentes, controladores y estrategia de migración sin tratar todas las cortinas como una sola carga.
+El levantamiento también separó los motores AC y DC por tipo de cortina para facilitar el dimensionamiento de fuentes, controladores y futuras modificaciones del sistema.
 
-## Comparación
-
-Las alternativas se compararon por tensión, torque, geometría, control, protección y documentación. La decisión no se basó en un único parámetro: primero se descartaron equipos incompatibles y luego se evaluó el conjunto de criterios técnicos.
-
-## Aprendizaje transferible
-
-El caso evidencia levantamiento de activos, normalización de fichas técnicas y selección multicriterio. Las cotizaciones y planos de instalación pertenecen al entorno laboral y no forman parte de la versión pública.
+Las cotizaciones y planos de instalación no se incluyen en la versión pública.
 
 [Volver a investigación técnica](README.md)
